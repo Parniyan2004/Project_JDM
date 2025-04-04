@@ -18,6 +18,7 @@ This system aims to:
 Here is the suggested folder structure for the project:
 
 Project_JDM/
+
 ├── documentation/       → Project report, planning documents, meeting notes  
 ├── design/              → UML diagrams, UI mockups  
 ├── src/                 → Java source code  
