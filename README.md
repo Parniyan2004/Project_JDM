@@ -22,17 +22,23 @@ This project provides a digital alternative to paper-based CMAS assessments by e
 Here is the folder structure for the project:
 DMTracker/
 
-├── src/                             Java source code (Main, AddPatient, DoctorLogin, etc.)
+├── src/                             
+Java source code (Main, AddPatient, DoctorLogin, etc.)
 
-├── bin/                             Compiled .class files
+├── bin/                             
+Compiled .class files
 
-├── database/                        SQLite database file (cmas_data.db)
+├── database/                        
+SQLite database file (cmas_data.db)
 
-├── lib/                             SQLite JDBC driver (sqlite-jdbc-3.49.1.0.jar)
+├── lib/                             
+SQLite JDBC driver (sqlite-jdbc-3.49.1.0.jar)
 
-├── Report_Project.pdf               Final project report (this explains methodology, results, testing, etc.)
+├── Report_Project.pdf               
+Final project report (this explains methodology, results, testing, etc.)
 
-├── README.md                        This file
+├── README.md                        
+This file
 
 
 ## Technologies Used
