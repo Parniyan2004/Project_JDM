@@ -20,6 +20,7 @@ This project provides a digital alternative to paper-based CMAS assessments by e
 ##  Project Structure
 
 Here is the folder structure for the project:
+
 DMTracker/
 
 ├── src/                             Java source code (Main, AddPatient, DoctorLogin, etc.)
