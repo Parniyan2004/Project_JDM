@@ -22,17 +22,17 @@ This project provides a digital alternative to paper-based CMAS assessments by e
 Here is the folder structure for the project:
 DMTracker/
 
-├── src/                   # Java source code (Main, AddPatient, DoctorLogin, etc.)
+├── src/                   Java source code (Main, AddPatient, DoctorLogin, etc.)
 
-├── bin/                   # Compiled .class files
+├── bin/                   Compiled .class files
 
-├── database/              # SQLite database file (cmas_data.db)
+├── database/              SQLite database file (cmas_data.db)
 
-├── lib/                   # SQLite JDBC driver (sqlite-jdbc-3.49.1.0.jar)
+├── lib/                   SQLite JDBC driver (sqlite-jdbc-3.49.1.0.jar)
 
-├── Report_Project.pdf     # Final project report (this explains methodology, results, testing, etc.)
+├── Report_Project.pdf     Final project report (this explains methodology, results, testing, etc.)
 
-├── README.md              # This file
+├── README.md              This file
 
 
 ## Technologies Used
@@ -56,12 +56,12 @@ The dataset used in this project (`PatientX`) includes:
 ## How to Run
 
 1. Clone the repository:
-git clone https://github.com/your-username/JDMTracker.git
+git clone https://github.com/Parniyan2004/Project_JDM.git
 
-2. Compile the Java code:
+3. Compile the Java code:
 javac -cp “.;lib/sqlite-jdbc-3.49.1.0.jar” src/*.java
 
-3. Run the application:
+4. Run the application:
 java -cp “.;lib/sqlite-jdbc-3.49.1.0.jar;src” Main
 > Make sure sqlite-jdbc is present in the lib/ folder and your terminal is inside the project directory.
 
