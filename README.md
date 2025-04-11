@@ -22,7 +22,6 @@ This project provides a digital alternative to paper-based CMAS assessments by e
 Here is the folder structure for the project:
 
 JDMTracker
-
 ├── src/                             Java source code (Main, AddPatient, DoctorLogin, etc.)
 
 ├── bin/                             Compiled .class files
