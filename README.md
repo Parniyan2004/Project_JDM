@@ -42,6 +42,7 @@ JDMTracker
 - SQLite (local database)
 - JDBC (database connection)
 - Visual Studio Code
+- IntelliJ IDEA Community
 - draw.io (UML diagrams)
 - DB Browser for SQLite (data inspection)
 
