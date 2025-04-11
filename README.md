@@ -31,7 +31,7 @@ JDMTracker
 
 ├── lib/                             SQLite JDBC driver (sqlite-jdbc-3.49.1.0.jar)
 
-├── Report_Project.pdf               Final project report (this explains methodology, results, testing, etc.)
+├── Report_Project.pdf                    Final project report (this explains methodology, results, testing)
 
 ├── README.md                        This file
 
