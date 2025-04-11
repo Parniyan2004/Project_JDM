@@ -1,6 +1,6 @@
 ## Digital CMAS Monitoring System (JDMTracker)
 
-A lightweight Java-based CLI application to support children diagnosed with Juvenile Dermatomyositis (JDM).  
+A Java-based CLI application to support children diagnosed with Juvenile Dermatomyositis (JDM).  
 The system enables patients or caregivers to enter CMAS test results at home and allows doctors to securely log in, view results, and track disease progression.
 
 ## Features
@@ -52,7 +52,7 @@ The dataset used in this project (`PatientX`) includes:
 - CMAS scores (over time)
 - [Optionally extendable] Lab measurement files for biomarkers
 
-> Note: Only the Patient and TestResult data were integrated into the current version. LabResult/Measurement data can be added in future versions.
+> Note: The current version integrates only the Patient and TestResult datasets from PatientX. Additional files such as LabResult.csv and Measurement.csv are provided for future integration of biomarker tracking.
 
 ## How to Run
 
@@ -76,15 +76,13 @@ The system includes:
 - TestResult(id, patient_id, date, score)
 (See Report_Project.pdf or `design/uml.png`)
 
-## Contributors
+## Contributor
 
 - Zahra Amiri  
-- Ismail Gatnaoui
 
 ## License & Notes
 
-This project is developed for Introduction to Software Engineering course at ZUYD University, ADSAI program.  
-It is intended for educational purposes only and is not a certified medical system.
+This project was developed as an individual submission for the “Introduction to Software Engineering” course at ZUYD University (ADSAI).
 
 
 
