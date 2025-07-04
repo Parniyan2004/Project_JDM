@@ -63,13 +63,6 @@ JDM_TRACKER_PROJECT/
 ### Step 1 – Compile:
 javac -d out -cp "src/main/lib/sqlite-jdbc-3.50.2.0.jar" src/dao/*.java src/model/*.java src/main/*.java
 
-## How to Run
-
-### Requirements
-- Java 17 or higher  
-- SQLite JDBC driver (included in `lib/`)  
-- DB Browser for SQLite (for importing CSV)  
-
 
 ## step 2:
 java -cp "src/main/lib/sqlite-jdbc-3.50.2.0.jar;out" main.Main
