@@ -61,10 +61,7 @@ JDM_TRACKER_PROJECT/
 - DB Browser for SQLite (for importing CSV)  
 
 ### Step 1 – Compile:
-```bash
 javac -d out -cp "src/main/lib/sqlite-jdbc-3.50.2.0.jar" src/dao/*.java src/model/*.java src/main/*.java
-
----
 
 ## How to Run
 
@@ -73,37 +70,17 @@ javac -d out -cp "src/main/lib/sqlite-jdbc-3.50.2.0.jar" src/dao/*.java src/mode
 - SQLite JDBC driver (included in `lib/`)  
 - DB Browser for SQLite (for importing CSV)  
 
-### Step 1 – Compile:
-```bash
-javac -d out -cp "src/main/lib/sqlite-jdbc-3.50.2.0.jar" src/dao/*.java src/model/*.java src/main/*.java
 
----
-
-## How to Run
-
-### Requirements
-- Java 17 or higher  
-- SQLite JDBC driver (included in `lib/`)  
-- DB Browser for SQLite (for importing CSV)  
-
-### Step 1 – Compile:
-```bash
-javac -d out -cp "src/main/lib/sqlite-jdbc-3.50.2.0.jar" src/dao/*.java src/model/*.java src/main/*.java
-
-###step 2:
-
+## step 2:
 java -cp "src/main/lib/sqlite-jdbc-3.50.2.0.jar;out" main.Main
 
 ## Dataset
 Dataset used from PatientX folder includes:
-
 Patient basic info 
-
 CMAS scores 
 
-Additional lab and measurement data 
-
-Use-Cases Implemented
+ 
+## Use-Cases Implemented
 Add and view patient profiles
 
 Assign exercises to patients
@@ -112,20 +89,13 @@ Add CMAS scores
 
 View reports by patient
 
-Compare patients 
-
-Search by name/ID 
-
-Technologies Used
+## Technologies Used
 Java 17
-
 SQLite + JDBC
-
 Visual Studio Code
-
 DB Browser for SQLite
 
-License
+## License
 This project was developed as part of the “Introduction to Software Engineering” course at ZUYD University (ADSAI 2025) by Zahra Amiri.
 
 
